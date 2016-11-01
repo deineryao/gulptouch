@@ -1,0 +1,16 @@
+$side : left;
+$color : red;
+.rounded {
+　　border-#{$side}-radius: 5px;
+}
+.nimei {
+	color: $color;
+}
+.nidaye {
+	background: $color;
+}
+.hehe {
+	margin-#{$side}: 15px;
+	margin-top:10px;
+	-webkit-border-radius:5px;
+}
